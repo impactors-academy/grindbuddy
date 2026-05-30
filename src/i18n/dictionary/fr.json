@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "title": "GrindBuddy — Plateforme d'exécution IA pour bâtisseurs africains",
+    "description": "GrindBuddy est un logiciel d'exécution orienté Afrique pour les bâtisseurs, avec matching IA, GrindBot et un wallet de crédits pour les tokens."
+  },
+  "auth": {
+    "login": {
+      "title": "Connexion",
+      "subtitle": "Accédez à votre compte GrindBuddy",
+      "emailLabel": "E-mail",
+      "passwordLabel": "Mot de passe",
+      "emailPlaceholder": "vous@exemple.com",
+      "passwordPlaceholder": "••••••••",
+      "loginBtn": "Se connecter",
+      "loading": "Connexion en cours...",
+      "or": "ou",
+      "continueWithGoogle": "Continuer avec Google",
+      "continueWithGithub": "Continuer avec GitHub",
+      "missingFields": "Veuillez remplir tous les champs",
+      "error": "Erreur de connexion. Veuillez réessayer.",
+      "demoNotice": "Mode démo : utilisez n'importe quel email/mot de passe pour tester"
+    },
+    "signup": {
+      "title": "Créez votre compte",
+      "subtitle": "Rejoignez GrindBuddy et commencez votre parcours",
+      "emailLabel": "E-mail",
+      "passwordLabel": "Mot de passe",
+      "confirmPasswordLabel": "Confirmer le mot de passe",
+      "namePlaceholder": "Nom complet",
+      "emailPlaceholder": "vous@exemple.com",
+      "passwordPlaceholder": "••••••••",
+      "confirmPasswordPlaceholder": "••••••••",
+      "createBtn": "Créer mon compte",
+      "loading": "Création en cours...",
+      "missingFields": "Veuillez remplir tous les champs requis",
+      "passwordShort": "Le mot de passe doit contenir au moins 6 caractères",
+      "passwordMismatch": "Les mots de passe ne correspondent pas",
+      "error": "Erreur lors de l'inscription. Veuillez réessayer.",
+      "roleLabel": "Je suis",
+      "roleFounder": "Fondateur / Développeur",
+      "roleIncubator": "Incubateur",
+      "roleInvestor": "Investisseur / Mentor",
+      "termsPrefix": "J'accepte les",
+      "termsAnd": "et la",
+      "terms": "conditions d'utilisation",
+      "privacy": "politique de confidentialité",
+      "alreadyAccount": "Vous avez déjà un compte ?",
+      "loginLink": "Se connecter",
+      "googleBtn": "S'inscrire avec Google",
+      "githubBtn": "S'inscrire avec GitHub",
+      "demoNotice": "Mode démo : utilisez n'importe quelles données pour tester la plateforme"
+    }
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment ça marche",
+    "wallet": "Portefeuille",
+    "team": "Équipe",
+    "roadmap": "Feuille de route",
+    "pricing": "Tarifs",
+    "faq": "FAQ",
+    "openProduct": "Ouvrir le produit",
+    "login": "Connexion",
+    "signup": "S'inscrire"
+  },
+  "language": {
+    "en": "English",
+    "fr": "Français",
+    "ch": "中文"
+  },
+  "home": {
+    "tag": "Plateforme d'exécution d'abord africaine",
+    "title": "De l'idée au produit livré",
+    "subtitle": "Conçu pour les builders africains — de Monrovia à Casablanca et au-delà.",
+    "cta": {"start":"Commencer gratuitement","demo":"Voir la démo"},
+    "cities": ["Monrovia","Casablanca","Lagos","Nairobi"],
+    "africanStats": [
+      {"value":"70%+","title":"Taux d’échec des startups africaines","detail":"Le soutien à l’exécution compte lorsque l’infrastructure est fragmentée."},
+      {"value":"89%","title":"Fondateurs interrogés","detail":"Notre enquête de cas montre un fort besoin d’outils de coordination."},
+      {"value":"GSMA","title":"La pénétration mobile progresse","detail":"Le continent est d’abord mobile, ce qui rend les plateformes d’exécution évolutives."}
+    ],
+    "problem": {
+      "title": "Le problème",
+      "text": "Les grandes idées échouent quand les équipes manquent de structure, d’outils et de suivi.",
+      "cards": [
+        {"title":"Isolement","text":"Travailler en solo sans système de responsabilisation structuré."},
+        {"title":"Fragmentation","text":"8 à 12 outils déconnectés = contexte perdu et productivité réduite."},
+        {"title":"Réseautage ≠ Exécution","text":"Les connexions seules ne suffisent pas sans structure et accompagnement."},
+        {"title":"Accès inégal","text":"L’expertise et les outils restent concentrés dans les startups bien financées."}
+      ]
+    },
+    "solution": {"title":"Ce que fait GrindBuddy","subtitle":"Une seule plateforme pour la collaboration, l'exécution et le travail IA alimenté par des tokens.","heading":"Ce que fait GrindBuddy","sub":"Une seule plateforme pour la collaboration, l'exécution et le travail IA alimenté par des tokens.","cards":[
+      {"title":"Correspondance IA","text":"Trouvez des co-bâtisseurs selon les compétences, le style de travail et l’alignement de mission.","badge":"Adéquation d’équipe +60%"},
+      {"title":"GrindBot","text":"Décompose les tâches, fait remonter les blocages et maintient l’exécution chaque jour.","badge":"Gain de productivité immédiat"},
+      {"title":"Marché","text":"Accédez à des outils et services IA vérifiés au même endroit.","badge":"Zéro friction, tout intégré"},
+      {"title":"Responsabilité","text":"Jalons, santé d’équipe et signaux de progression pour garder la livraison honnête.","badge":"15% de churn en moins"}
+    ]},
+    "howItWorks":{
+      "label":"Comment ça marche",
+      "title":"Trois étapes simples",
+      "items":[
+        {"step":"01","title":"Dites-nous la mission","text":"Décrivez le projet, la taille de l'équipe, le calendrier et la définition du succès."},
+        {"step":"02","title":"Faites matcher personnes et IA","text":"GrindBuddy suggère des builders, copilotes et workflows adaptés."},
+        {"step":"03","title":"Financez et livrez","text":"Utilisez GrindBuddy Wallet pour acheter, envoyer et recevoir des crédits sur diverses plateformes IA."}
+      ]
+    },
+    "wallet": {"tag":"Portefeuille GrindBuddy","title":"Crédits internes pour les plateformes IA","description":"GrindBuddy Wallet est le portefeuille interne de crédits pour acheter, envoyer et recevoir des tokens sur diverses plateformes IA — pensez à PayPal, mais pour les tokens IA.","heading":"Portefeuille GrindBuddy","sub":"Crédits internes pour les plateformes IA","benefits":[{"title":"Payez une fois, dépensez partout","text":"Les crédits internes fonctionnent sur diverses plateformes et services IA."},{"title":"Envoyer et recevoir des tokens","text":"Déplacez les crédits entre coéquipiers aussi facilement qu’un virement."},{"title":"Suivre l’usage","text":"Visualisez les dépenses par projet, équipe et outil pour garder les budgets visibles."}]},
+    "features":["Onboarding intelligent avec profil, objectifs et contexte","Matching IA selon les compétences et le style de collaboration","Chat en temps réel, tâches et collaboration projet","Assistant GrindBot qui garde l’exécution sur les rails","Tableaux de bord de progression avec responsabilité visible","Accès au marché pour 50+ outils vérifiés"],
+    "featureHeading": "Conçu pour l’exécution",
+    "featureTag": "Fonctionnalités MVP",
+    "featuresSection": {"label":"Fonctionnalités MVP","title":"Conçu pour l'exécution"},
+    "roadmapSection": {"label":"Feuille de route","title":"Et ensuite","subtitle":"La feuille de route est pensée pour la croissance africaine, le support des équipes et l'adoption du portefeuille."},
+    "walletBalance": "Solde du portefeuille",
+    "walletBuy": "Acheter",
+    "walletSend": "Envoyer",
+    "walletReceive": "Recevoir",
+    "walletBuyLabel": "Tokens IA",
+    "walletSendLabel": "Aux équipiers",
+    "walletReceiveLabel": "Crédits de plateforme",
+    "walletDescription": "Les crédits internes rendent les dépenses IA visibles, portables et adaptées au travail d'équipe.",
+    "teamSection": {"label":"Équipe","title":"Membres de l'équipe africaine","subtitle":"Une équipe panafricaine visible aide les jurés à voir le modèle d'exécution et les personnes qui le portent.","button":"Ouvrir la page équipe"},
+    "pricingSection": {"title":"Tarification simple","subtitle":"Choisissez le forfait qui correspond à votre équipe."},
+    "faqSection": {"title":"FAQ","subtitle":"Réponses courtes pour les jurés et les builders."},
+    "ctaSection": {"title":"De l'idée au produit livré","subtitle":"GrindBuddy rend l'exécution visible, d'abord africaine et plus facile à financer.","button1":"Commencer gratuitement","button2":"Rencontrer l'équipe","stats":[{"value":"Gratuit","label":"pour bien démarrer"},{"value":"50+ outils","label":"intégrés"},{"value":"IA incluse","label":"assistant GrindBot"}]},
+    "footer": {"line1":"GrindBuddy — Plateforme d'exécution IA pour bâtisseurs africains","copyright":"© 2026 GrindBuddy. Tous droits réservés.","tagline":"D'abord africain | À distance en priorité"},
+    "pricing": {
+      "title": "Tarification simple",
+      "subtitle": "Choisissez le plan qui correspond à vos besoins",
+      "free": {"name":"Gratuit","subtitle":"Pour commencer","items":["3 projets","Matching basique","Accès communauté"],"button":"Commencer"},
+      "pro": {"tag":"Populaire","name":"19€","subtitle":"par mois","items":["Projets illimités","Matching prioritaire","IA complète","20 intégrations"],"button":"Essayer maintenant"},
+      "team": {"name":"Équipe","subtitle":"À partir de 39€/mois par siège","items":["Tout du Pro","Analytics équipe","Workspace partagé","Support dédié"],"button":"Nous contacter"}
+    },
+    "finalCta": {
+      "title": "Prêt à transformer vos idées en réalité ?",
+      "sub": "Rejoignez GrindBuddy et accédez à une plateforme complète pour exécuter vos projets avec l’IA, les bons outils et les bonnes personnes.",
+      "button": "Accéder au produit",
+      "contact": "Nous contacter",
+      "stats": [
+        {"value":"Gratuit","label":"pour commencer"},
+        {"value":"50+ outils","label":"intégrés"},
+        {"value":"IA incluse","label":"assistant GrindBot"}
+      ]
+    },
+    "about": {
+      "title": "À propos de GrindBuddy",
+      "p1": "GrindBuddy est née d’une frustration simple : chaque année, des millions d’entrepreneurs, d’étudiants fondateurs et de développeurs indépendants abandonnent des projets prometteurs — non pas parce que leurs idées manquent de valeur, mais parce qu’ils manquent de structure, de co-bâtisseurs adaptés et d’accès aux bons outils au bon moment.",
+      "p2": "Nous avons décidé de supprimer ces obstacles en créant une plateforme unique qui allie collaboration intelligente, intelligence artificielle et un écosystème d’outils intégrés — tout conçu pour l’exécution.",
+      "missionTitle": "Notre mission",
+      "missionText": "Démocratiser l’accès aux outils, au mentorat et à la collaboration pour tous les bâtisseurs du numérique.",
+      "visionTitle": "Notre vision",
+      "visionText": "Un monde où l’exécution devient le résultat par défaut, pas l’exception.",
+      "impactTitle": "Impact durable",
+      "impactText": "Soutien direct à 3 Objectifs de Développement Durable de l’ONU (ODD 8, 9, 13).",
+      "statsTitle": "Chiffres clés",
+      "stats": [
+        {"label":"Marché global","value":"57 Mds$","detail":"Marché de la collaboration en 2030"},
+        {"label":"Freelances en France","value":"1.2M+","detail":"Croissance +92% depuis 2009"},
+        {"label":"Taux de complétion","value":"<20%","detail":"Projets actuellement complétés"}
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquemment posées",
+      "subtitle": "Tout ce que vous devez savoir sur GrindBuddy",
+      "items": [
+        {"q":"Comment fonctionne le matching IA ?","a":"Notre système utilise l’apprentissage automatique pour analyser les compétences, le style de travail, la disponibilité et les objectifs de chaque builder. Il recommande ensuite les co-bâtisseurs les plus compatibles, sur la base de la véritable adéquation, pas seulement de la proximité réseau."},
+        {"q":"Quels outils sont intégrés à la marketplace ?","a":"Notre marketplace inclut 50+ outils vérifiés pour le développement, le design, le marketing et l’analytics. Nous en ajoutons constamment et intégrons des agents IA spécialisés."},
+        {"q":"Combien coûte GrindBuddy ?","a":"GrindBuddy est gratuit pour commencer (3 projets, matching basique). Le plan Pro à 19€/mois déverrouille les projets illimités, l’IA complète et 20 intégrations. Les équipes paient 39€/mois par siège avec analytics avancée."},
+        {"q":"Mes données sont-elles sécurisées ?","a":"Oui. Nous utilisons des standards industriels (OAuth 2.0, JWT, chiffrement SSL/TLS). Pour nos clients Enterprise, nous offrons SSO, SLA de disponibilité et conformité GDPR complète."},
+        {"q":"Puis-je utiliser GrindBuddy pour mon équipe existante ?","a":"Absolument. Nos plans Équipe et Enterprise sont conçus pour les petites équipes (3 à 10 personnes) et les organisations plus larges. Vous obtenez analytics d’équipe, workspaces partagés et support dédié."},
+        {"q":"Puis-je exporter mes données ?","a":"Oui. GrindBuddy supporte l’export complet de vos projets, équipes et historique d’activité. Vous gardez la propriété de vos données à 100%."},
+        {"q":"Quand sera disponible l’app mobile ?","a":"L’app mobile iOS et Android est planifiée pour le Q4 2026. Pour l’instant, la version web est entièrement optimisée pour le mobile."},
+        {"q":"Offrez-vous une période d’essai gratuite ?","a":"Oui ! Le plan Gratuit vous donne un accès illimité à toutes les fonctionnalités de base. Aucune carte bancaire requise pour commencer."}
+      ]
+    },
+    "roadmap":[{"phase":"Q2 2026","title":"Lancement d’abord africain","text":"Lancez l’onboarding, le matching et les premiers workflows GrindBot."},{"phase":"Q3 2026","title":"Portefeuille + marché","text":"Rendez GrindBuddy Wallet visible, utilisable et central à l’exécution."},{"phase":"Q4 2026","title":"Espaces d’équipe","text":"Lancez une collaboration plus poussée, des analyses et des parcours adaptés au mobile."},{"phase":"2027","title":"Expansion transfrontalière","text":"Développez-vous à travers les hubs africains avec des écosystèmes partenaires et des agents IA."}],
+    "faqLegacy":[{"q":"Qu’est-ce que GrindBuddy ?","a":"Une plateforme d’exécution d’abord africaine pour les builders, les équipes et les fondateurs."},{"q":"Qu’est-ce que GrindBuddy Wallet ?","a":"C’est le portefeuille interne de crédits pour acheter, envoyer et recevoir des tokens sur diverses plateformes IA."},{"q":"Comment fonctionne le matching ?","a":"Nous faisons correspondre les builders selon les compétences, les objectifs, le style de travail et l’adéquation à la mission."},{"q":"Est-ce conçu pour l’Afrique ?","a":"Oui — le produit met en avant des hubs africains par conception."},{"q":"Les équipes peuvent-elles l’utiliser ?","a":"Oui. Les espaces d’équipe, les analyses et le partage de portefeuille sont conçus pour les petites et moyennes équipes en croissance."}],
+    "footer":{"line1":"GrindBuddy — Plateforme d'exécution IA pour bâtisseurs africains","copyright":"© 2026 GrindBuddy. Tous droits réservés.","remote":"Remote-first","hq":"Siège social : France","links":{"team":"Équipe","roadmap":"Feuille de route","wallet":"Portefeuille"}}
+  },
+  "team":{"heading":"Rencontrez les personnes qui construisent GrindBuddy","sub":"Une équipe panafricaine qui livre des outils d’exécution, de la coordination IA et une infrastructure de portefeuille.","members":[{"name":"Amina Diallo","role":"Product Lead","city":"Dakar, Senegal","bio":"Conçoit des parcours d’exécution qui aident les fondateurs à passer de l’idée au lancement."},{"name":"Kwame Mensah","role":"AI Systems Engineer","city":"Accra, Ghana","bio":"Développe GrindBot, la logique de matching et les rails du portefeuille."},{"name":"Nadia El Amrani","role":"Growth & Partnerships","city":"Casablanca, Morocco","bio":"Dirige les partenariats écosystémiques au sein des communautés de builders africains."},{"name":"Moses Okoro","role":"Community Ops","city":"Monrovia, Liberia","bio":"Accompagne les fondateurs avec l’onboarding, le support et les programmes communautaires."}],"backToHome":"Retour à l’accueil","join":"Rejoindre GrindBuddy"}
+,
+  "dashboard": {
+    "title": "Tableau de bord de progression",
+    "overallProgress": "Progression globale",
+    "projectCompletion": "Taux d'achèvement du projet",
+    "teamActivity": "Activité de l'équipe",
+    "nextMilestones": "Prochaines étapes",
+    "target": "Cible"
+  },
+  "matching": {
+    "title": "Construisez votre équipe",
+    "subtitle": "Trouvez des collaborateurs parfaitement alignés avec vos projets et objectifs.",
+    "explore": "Explorer les profils",
+    "suggestions": "Suggestions",
+    "compatibility": "Compatibilité",
+    "skills": "Compétences",
+    "goal": "Objectif",
+    "added": "{name} a été ajouté à votre équipe !",
+    "removed": "{name} a été retiré de votre équipe.",
+    "continue": "Accéder au workspace",
+    "addedLabel": "Ajouté",
+    "addButton": "Ajouter"
+  }
+  ,
+  "marketplace": {
+    "title": "Place de marché",
+    "addButton": "Ajouter au projet",
+    "added": "{name} ajouté à votre projet !"
+  },
+  "workspace": {
+    "title": "Espace de travail",
+    "toDo": "À faire",
+    "inProgress": "En cours",
+    "done": "Terminé",
+    "grindBot": "GrindBot",
+    "aiAssistant": "Assistant IA",
+    "askPlaceholder": "Demandez à GrindBot...",
+    "send": "Envoyer"
+  },
+  "demo": {
+    "loading": "Chargement de la démo...",
+    "subtitle": "Voir GrindBuddy en action"
+  },
+  "onboarding": {
+    "title": "Que développez-vous ?",
+    "subtitle": "Parlez-nous de votre projet et de vos compétences",
+    "projectPlaceholder": "Je veux construire...",
+    "skillsLabel": "Vos compétences",
+    "availability": "Disponibilité",
+    "availabilityLow": "Faible",
+    "availabilityMedium": "Moyenne",
+    "availabilityHigh": "Élevée",
+    "goalLabel": "Objectif",
+    "findBuddies": "Trouver mes GrindBuddies →",
+    "selectSkillError": "Veuillez décrire votre projet et sélectionner au moins une compétence"
+  },
+  "buddyChoice": {
+    "welcome":"Bienvenue, {name} !",
+    "subtitle":"Comment souhaitez-vous travailler sur vos projets ?",
+    "findBuddiesTitle":"Trouver des Grind Buddies",
+    "findBuddiesDesc":"Travaillez en équipe avec des personnes partageant les mêmes idées. Trouvez des développeurs, designers et autres experts.",
+    "aiBuddyTitle":"Travailler avec l'IA",
+    "aiBuddyDesc":"GrindBot est votre assistant IA — il aide à décomposer les projets, générer des tâches et vous garder sur la bonne voie.",
+    "bothTitle":"Les deux ensemble",
+    "bothDesc":"Obtenez la puissance complète : travaillez avec des humains ET l'IA pour une exécution optimale.",
+    "start":"Commencer"
+  }
+}

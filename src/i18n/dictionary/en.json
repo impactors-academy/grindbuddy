@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "title": "GrindBuddy — Africa's AI Execution Platform for Builders",
+    "description": "GrindBuddy is Africa-first execution software for builders, with AI matching, GrindBot, and a credits wallet for tokens."
+  },
+  "auth": {
+    "login": {
+      "title": "Log in",
+      "subtitle": "Access your GrindBuddy account",
+      "emailLabel": "Email",
+      "passwordLabel": "Password",
+      "emailPlaceholder": "you@example.com",
+      "passwordPlaceholder": "••••••••",
+      "loginBtn": "Sign in",
+      "loading": "Signing in...",
+      "or": "or",
+      "continueWithGoogle": "Continue with Google",
+      "continueWithGithub": "Continue with GitHub",
+      "missingFields": "Please fill in all fields",
+      "error": "Login error. Please try again.",
+      "demoNotice": "Demo mode: Use any email/password to test"
+    },
+    "signup": {
+      "title": "Create your account",
+      "subtitle": "Join GrindBuddy and start building",
+      "emailLabel": "Email",
+      "passwordLabel": "Password",
+      "confirmPasswordLabel": "Confirm password",
+      "namePlaceholder": "Full name",
+      "emailPlaceholder": "you@example.com",
+      "passwordPlaceholder": "••••••••",
+      "confirmPasswordPlaceholder": "••••••••",
+      "createBtn": "Create account",
+      "loading": "Creating account...",
+      "missingFields": "Please fill in all required fields",
+      "passwordShort": "Password must be at least 6 characters",
+      "passwordMismatch": "Passwords do not match",
+      "error": "Signup error. Please try again.",
+      "roleLabel": "I am",
+      "roleFounder": "Founder / Developer",
+      "roleIncubator": "Incubator",
+      "roleInvestor": "Investor / Mentor",
+      "termsPrefix": "I agree to the",
+      "termsAnd": "and the",
+      "terms": "terms of use",
+      "privacy": "privacy policy",
+      "alreadyAccount": "Already have an account?",
+      "loginLink": "Log in",
+      "googleBtn": "Sign up with Google",
+      "githubBtn": "Sign up with GitHub",
+      "demoNotice": "Demo mode: Use any data to test the platform"
+    }
+  },
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How it works",
+    "wallet": "Wallet",
+    "team": "Team",
+    "roadmap": "Roadmap",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "openProduct": "Open product",
+    "login": "Log in",
+    "signup": "Sign up"
+  },
+  "language": {
+    "en": "English",
+    "fr": "Français",
+    "ch": "中文"
+  },
+  "home": {
+    "tag": "Africa-first execution platform",
+    "title": "From idea to shipped product",
+    "subtitle": "Built for African builders — from Monrovia to Casablanca and beyond.",
+    "cta": {
+      "start": "Start free",
+      "demo": "View demo"
+    },
+    "cities": ["Monrovia","Casablanca","Lagos","Nairobi"],
+    "africanStats": [
+      {"value":"70%+","title":"African startup failure rate","detail":"Execution support matters when infrastructure is fragmented."},
+      {"value":"89%","title":"Founders surveyed","detail":"Our case survey shows a strong need for better coordination tools."},
+      {"value":"GSMA","title":"Mobile penetration is rising","detail":"The continent is mobile-first, which makes execution platforms scalable."}
+    ],
+    "problem": {
+      "title": "The problem",
+      "text": "Great ideas fail when teams lack structure, tools, and follow-through.",
+      "cards": [
+        {"title":"Isolation","text":"Working alone without a structured accountability system."},
+        {"title":"Fragmentation","text":"8-12 disconnected tools = lost context and lower productivity."},
+        {"title":"Networking ≠ Execution","text":"Connections alone are not enough without support and structure."},
+        {"title":"Unequal Access","text":"Expertise and tools remain concentrated in well-funded startups."}
+      ]
+    },
+    "solution": {
+      "title":"What GrindBuddy does",
+      "subtitle":"One platform for collaboration, execution, and token-powered AI work.",
+      "heading":"What GrindBuddy does",
+      "sub":"One platform for collaboration, execution, and token-powered AI work.",
+      "cards":[
+        {"title":"AI Matching","text":"Find co-builders by skill, working style, and mission fit — not just by network.","badge":"Team fit +60%"},
+        {"title":"GrindBot","text":"Break down tasks, surface blockers, and keep execution moving every day.","badge":"Immediate productivity gains"},
+        {"title":"Marketplace","text":"Access vetted tools and AI services in one place.","badge":"Zero friction, fully integrated"},
+        {"title":"Accountability","text":"Milestones, team health, and progress signals that keep delivery honest.","badge":"15% lower churn"}
+      ]
+    },
+    "howItWorks":{
+      "label":"How it works",
+      "title":"Three simple steps",
+      "items":[
+        {"step":"01","title":"Tell us the mission","text":"Describe the project, team size, timeline, and what success looks like."},
+        {"step":"02","title":"Match people and AI","text":"GrindBuddy suggests builders, copilots, and workflows that fit the job."},
+        {"step":"03","title":"Fund and ship","text":"Use GrindBuddy Wallet to buy, send, and receive credits across AI platforms."}
+      ]
+    },
+    "wallet": {
+      "tag":"GrindBuddy Wallet",
+      "title":"Internal credits for AI platforms",
+      "description":"GrindBuddy Wallet is the internal credits wallet for buying, sending, and receiving tokens from diverse AI platforms — think of it as PayPal, but for AI tokens.",
+      "heading":"GrindBuddy Wallet",
+      "sub":"Internal credits for AI platforms",
+      "benefits":[
+        {"title":"Pay once, spend anywhere","text":"Internal credits work across diverse AI platforms and services."},
+        {"title":"Send and receive tokens","text":"Move credits between teammates as easily as sending money."},
+        {"title":"Track usage","text":"See spend by project, team, and tool so budgets stay visible."}
+      ]
+    },
+    "features": [
+      "Smart onboarding with profile, goals, and context",
+      "AI-powered matching across skills and collaboration style",
+      "Real-time chat, tasks, and project collaboration",
+      "GrindBot assistant that keeps execution on track",
+      "Progress dashboards with visible accountability",
+      "Marketplace access for 50+ vetted tools"
+    ],
+    "featureHeading": "Built for execution",
+    "featureTag": "MVP features",
+    "featuresSection": {"label":"MVP features","title":"Built for execution"},
+    "roadmapSection": {"label":"Roadmap","title":"What comes next","subtitle":"The roadmap is designed for African growth, team support, and wallet adoption."},
+    "walletBalance": "Wallet balance",
+    "walletBuy": "Buy",
+    "walletSend": "Send",
+    "walletReceive": "Receive",
+    "walletBuyLabel": "AI tokens",
+    "walletSendLabel": "To teammates",
+    "walletReceiveLabel": "Platform credits",
+    "walletDescription": "Internal credits keep AI spending visible, portable, and team-friendly.",
+    "teamSection": {"label":"Team","title":"African team members","subtitle":"A visible Pan-African team helps judges see the execution model and the people behind it.","button":"Open team page"},
+    "pricingSection": {"title":"Simple pricing","subtitle":"Choose the plan that matches your team."},
+    "faqSection": {"title":"FAQ","subtitle":"Short answers for judges and builders."},
+    "ctaSection": {"title":"From idea to shipped product","subtitle":"GrindBuddy makes execution visible, African-first, and easy to fund.","button1":"Start free","button2":"Meet the team","stats":[{"value":"Free","label":"for getting started"},{"value":"50+ tools","label":"integrated"},{"value":"AI included","label":"GrindBot assistant"}]},
+    "footer": {"line1":"GrindBuddy — Africa's AI Execution Platform for Builders","copyright":"© 2026 GrindBuddy. All rights reserved.","tagline":"Africa-first | Remote-first"},
+    "pricing": {
+      "title": "Simple pricing",
+      "subtitle": "Choose the plan that fits your needs",
+      "free": {"name":"Free","subtitle":"Get started","items":["3 projects","Basic matching","Community access"],"button":"Start"},
+      "pro": {"tag":"Popular","name":"$19","subtitle":"per month","items":["Unlimited projects","Priority matching","Full AI","20 integrations"],"button":"Try now"},
+      "team": {"name":"Team","subtitle":"From $39/month per seat","items":["Everything in Pro","Team analytics","Shared workspace","Dedicated support"],"button":"Contact us"}
+    },
+    "finalCta": {
+      "title": "Ready to turn your ideas into reality?",
+      "sub": "Join GrindBuddy and get a complete platform to execute projects with AI, the right tools, and the right people.",
+      "button": "Access the product",
+      "contact": "Contact us",
+      "stats": [
+        {"value":"Free","label":"to get started"},
+        {"value":"50+ tools","label":"integrated"},
+        {"value":"AI included","label":"GrindBot assistant"}
+      ]
+    },
+    "about": {
+      "title": "About GrindBuddy",
+      "p1": "GrindBuddy was born from a simple frustration: every year, millions of entrepreneurs, student founders, and independent developers abandon promising projects — not because the ideas lack value, but because they lack structure, the right co-builders, and access to the right tools at the right time.",
+      "p2": "We decided to remove those obstacles by creating a single platform that combines intelligent collaboration, artificial intelligence, and an integrated ecosystem of tools — all built for execution.",
+      "missionTitle": "Our Mission",
+      "missionText": "Democratize access to tools, mentorship, and collaboration for every digital builder.",
+      "visionTitle": "Our Vision",
+      "visionText": "A world where execution becomes the default outcome, not the exception.",
+      "impactTitle": "Lasting Impact",
+      "impactText": "Direct support for 3 UN Sustainable Development Goals (SDG 8, 9, 13).",
+      "statsTitle": "Key Numbers",
+      "stats": [
+        {"label":"Global Market","value":"$57B","detail":"Collaboration market in 2030"},
+        {"label":"Freelancers in France","value":"1.2M+","detail":"+92% growth since 2009"},
+        {"label":"Completion Rate","value":"<20%","detail":"Projects currently completed"}
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about GrindBuddy",
+      "items": [
+        {"q":"How does AI matching work?","a":"Our system uses machine learning to analyze the skills, work style, availability, and goals of each builder. It then recommends the most compatible co-builders based on true fit, not just network proximity."},
+        {"q":"What tools are included in the marketplace?","a":"Our marketplace includes 50+ verified tools for development, design, marketing, and analytics. We keep adding more and bringing in specialized AI agents."},
+        {"q":"How much does GrindBuddy cost?","a":"GrindBuddy is free to start (3 projects, basic matching). The Pro plan at $19/month unlocks unlimited projects, full AI, and 20 integrations. Teams pay $39/month per seat with advanced analytics."},
+        {"q":"Is my data secure?","a":"Yes. We use industry standards (OAuth 2.0, JWT, SSL/TLS encryption). For Enterprise customers we offer SSO, uptime SLAs, and full GDPR compliance."},
+        {"q":"Can I use GrindBuddy for my existing team?","a":"Absolutely. Our Team and Enterprise plans are designed for small teams (3-10 people) and larger organizations. You get team analytics, shared workspaces, and dedicated support."},
+        {"q":"Can I export my data?","a":"Yes. GrindBuddy supports full export of your projects, teams, and activity history. You retain 100% ownership of your data."},
+        {"q":"When will the mobile app be available?","a":"The iOS and Android mobile apps are planned for Q4 2026. For now, the web version is fully optimized for mobile."},
+        {"q":"Do you offer a free trial?","a":"Yes! The Free plan gives you unlimited access to all core features. No credit card required to get started."}
+      ]
+    },
+    "roadmap":[
+      {"phase":"Q2 2026","title":"Africa-first launch","text":"Ship onboarding, matching, and the first GrindBot workflows."},
+      {"phase":"Q3 2026","title":"Wallet + marketplace","text":"Make GrindBuddy Wallet visible, usable, and central to execution."},
+      {"phase":"Q4 2026","title":"Team workspaces","text":"Launch deeper collaboration, analytics, and mobile-ready flows."},
+      {"phase":"2027","title":"Cross-border scale","text":"Expand across African hubs with partner ecosystems and AI agents."}
+    ],
+    "footer": {
+      "line1":"GrindBuddy — Africa's AI Execution Platform for Builders",
+      "copyright":"© 2026 GrindBuddy. All rights reserved.",
+      "remote":"Remote-First",
+      "hq":"Headquarters: France",
+      "links": {
+        "team": "Team",
+        "roadmap": "Roadmap",
+        "wallet": "Wallet"
+      }
+    }
+  },
+  "team": {
+    "heading":"Meet the people building GrindBuddy",
+    "sub":"A Pan-African team shipping execution tools, AI coordination, and wallet infrastructure.",
+    "members": [
+      {"name":"Amina Diallo","role":"Product Lead","city":"Dakar, Senegal","bio":"Designs execution flows that help founders move from idea to launch."},
+      {"name":"Kwame Mensah","role":"AI Systems Engineer","city":"Accra, Ghana","bio":"Builds GrindBot, matchmaking logic, and the wallet rails."},
+      {"name":"Nadia El Amrani","role":"Growth & Partnerships","city":"Casablanca, Morocco","bio":"Leads ecosystem partnerships across African builder communities."},
+      {"name":"Moses Okoro","role":"Community Ops","city":"Monrovia, Liberia","bio":"Supports founders with onboarding, support, and community programs."}
+    ],
+    "backToHome":"Back to home",
+    "join":"Join GrindBuddy"
+  }
+  ,
+  "dashboard": {
+    "title": "Progress Dashboard",
+    "overallProgress": "Overall Progress",
+    "projectCompletion": "Project completion rate",
+    "teamActivity": "Team Activity",
+    "nextMilestones": "Next Milestones",
+    "target": "Target"
+  },
+  "matching": {
+    "title": "Build your team",
+    "subtitle": "Find collaborators aligned with your project and goals.",
+    "explore": "Explore profiles",
+    "suggestions": "Suggestions",
+    "compatibility": "Compatibility",
+    "skills": "Skills",
+    "goal": "Goal",
+    "added": "{name} was added to your team!",
+    "removed": "{name} was removed from your team.",
+    "continue": "Go to workspace",
+    "addedLabel": "Added",
+    "addButton": "Add"
+  }
+  ,
+  "marketplace": {
+    "title": "Marketplace",
+    "addButton": "Add to project",
+    "added": "{name} added to your project!"
+  },
+  "workspace": {
+    "title": "Project Workspace",
+    "toDo": "To Do",
+    "inProgress": "In Progress",
+    "done": "Done",
+    "grindBot": "GrindBot",
+    "aiAssistant": "AI Assistant",
+    "askPlaceholder": "Ask GrindBot...",
+    "send": "Send"
+  },
+  "demo": {
+    "loading": "Loading demo...",
+    "subtitle": "See GrindBuddy in action"
+  },
+  "onboarding": {
+    "title": "What are you building?",
+    "subtitle": "Tell us about your project and skills",
+    "projectPlaceholder": "I want to build...",
+    "skillsLabel": "Your skills",
+    "availability": "Availability",
+    "availabilityLow": "Low",
+    "availabilityMedium": "Medium",
+    "availabilityHigh": "High",
+    "goalLabel": "Goal",
+    "findBuddies": "Find my GrindBuddies →",
+    "selectSkillError": "Please describe your project and select at least one skill"
+  },
+  "buddyChoice": {
+    "welcome":"Welcome, {name}!",
+    "subtitle":"How would you like to work on your projects?",
+    "findBuddiesTitle":"Find Grind Buddies",
+    "findBuddiesDesc":"Team up with like-minded people to build together. Find developers, designers and other experts.",
+    "aiBuddyTitle":"Work with AI",
+    "aiBuddyDesc":"GrindBot is your AI assistant — it helps break down projects, generate tasks and keep you on track.",
+    "bothTitle":"Both Together",
+    "bothDesc":"Get the full power: work with humans AND AI for maximum execution.",
+    "start":"Start"
+  }
+}

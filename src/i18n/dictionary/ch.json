@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "title": "GrindBuddy — 非洲建设者的 AI 执行平台",
+    "description": "GrindBuddy 是面向非洲建设者的优先执行平台，提供 AI 匹配、GrindBot 和用于 AI 代币的积分钱包。"
+  },
+  "nav": {
+    "features": "功能",
+    "howItWorks": "运行方式",
+    "wallet": "钱包",
+    "team": "团队",
+    "roadmap": "路线图",
+    "pricing": "定价",
+    "faq": "常见问题",
+    "openProduct": "打开产品",
+    "login": "登录",
+    "signup": "注册"
+  },
+  "language": {"en":"English","fr":"Français","ch":"中文"},
+  "home": {
+    "tag": "非洲优先执行平台",
+    "title": "从想法到交付产品",
+    "subtitle": "为非洲建设者而建——从蒙罗维亚到卡萨布兰卡，再到更远的地方。",
+    "cta": {"start":"免费开始","demo":"查看演示"},
+    "cities": ["Monrovia","Casablanca","Lagos","Nairobi"],
+    "africanStats":[{"value":"70%+","title":"非洲初创企业失败率","detail":"在基础设施碎片化时，执行支持至关重要。"},{"value":"89%","title":"调研创始人","detail":"我们的案例调研显示，对更好的协同工具需求强烈。"},{"value":"GSMA","title":"移动普及率持续上升","detail":"非洲以移动为先，这使得执行平台具有可扩展性。"}],
+    "problem": {
+      "title": "问题",
+      "text": "当团队缺少结构、工具和执行力时，再好的想法也会失败。",
+      "cards": [
+        {"title":"孤立","text":"在没有结构化责任体系的情况下独自工作。"},
+        {"title":"碎片化","text":"8–12 个互不连接的工具 = 上下文丢失和生产力下降。"},
+        {"title":"社交网络 ≠ 执行","text":"仅有联系是不够的，还需要支持和结构。"},
+        {"title":"机会不均","text":"专业能力和工具仍集中在资金充足的初创公司。"}
+      ]
+    },
+    "solution":{"title":"GrindBuddy 的作用","subtitle":"一个覆盖协作、执行与 token 驱动 AI 工作的平台。","heading":"GrindBuddy 的作用","sub":"一个覆盖协作、执行与 token 驱动 AI 工作的平台。","cards":[{"title":"AI 匹配","text":"按技能、工作方式和目标匹配协作者，而不只是人脉。","badge":"团队契合度 +60%"},{"title":"GrindBot","text":"拆解任务、发现阻碍，让执行持续推进。","badge":"即时生产力提升"},{"title":"市场","text":"在一个地方接入经过筛选的工具与 AI 服务。","badge":"零摩擦，完全整合"},{"title":"责任机制","text":"里程碑、团队健康度与进展信号，让交付更透明。","badge":"流失率降低 15%"}]},
+    "howItWorks":{
+      "label":"运行方式",
+      "title":"三个步骤",
+      "items":[
+        {"step":"01","title":"告诉我们目标","text":"描述项目、团队规模、时间线，以及成功的定义。"},
+        {"step":"02","title":"匹配成员与 AI","text":"GrindBuddy 推荐适合任务的建设者、AI 副驾与工作流。"},
+        {"step":"03","title":"充值并交付","text":"使用 GrindBuddy Wallet 在不同 AI 平台间购买、发送和接收积分。"}
+      ]
+    },
+    "wallet":{"tag":"GrindBuddy 钱包","title":"用于 AI 平台的内部积分","description":"GrindBuddy Wallet 是用于购买、发送和接收来自不同 AI 平台 token 的内部积分钱包——可以把它理解为 AI token 的 PayPal。","heading":"GrindBuddy 钱包","sub":"用于 AI 平台的内部积分","benefits":[{"title":"一次充值，多处使用","text":"内部积分可在多种 AI 平台与服务中使用。"},{"title":"发送与接收 token","text":"像转账一样在队友之间转移积分。"},{"title":"追踪使用","text":"按项目、团队和工具查看支出，让预算一目了然。"}]},
+    "features":["智能 onboarding（资料、目标、上下文）","基于技能与协作风格的 AI 匹配","实时聊天、任务与项目协作","让执行保持正轨的 GrindBot 助手","具备可见责任机制的进度看板","接入 50+ 经过筛选的工具"],
+    "featureHeading": "为执行而生",
+    "featureTag": "MVP 功能",
+    "featuresSection": {"label":"MVP 功能","title":"为执行而构建"},
+    "roadmapSection": {"label":"路线图","title":"下一步","subtitle":"路线图围绕非洲增長、团队支持与錢包采用来設計。"},
+    "walletBalance": "錢包余额",
+    "walletBuy": "購買",
+    "walletSend": "發送",
+    "walletReceive": "接收",
+    "walletBuyLabel": "AI tokens",
+    "walletSendLabel": "給团阚成員",
+    "walletReceiveLabel": "平台積賯",
+    "walletDescription": "內部積賯讓 AI 支出更透明、更可轉移，也更適合團隊契作。",
+    "teamSection": {"label":"团队","title":"非洲团队成员","subtitle":"公开可见的泛非团队，让评审能看见执行模式以及背后的人。","button":"打开团队页"},
+    "pricingSection": {"title":"简单定价","subtitle":"选择最适合你团队的方案。"},
+    "faqSection": {"title":"常见问题","subtitle":"为评审和建设者提供简短答案。"},
+    "ctaSection": {"title":"从想法到交付产品","subtitle":"GrindBuddy 让执行更可见、以非洲为中心，并且更容易获得资金支持。","button1":"免费开始","button2":"认识团队","stats":[{"value":"免费","label":"适合起步"},{"value":"50+ 工具","label":"已集成"},{"value":"含 AI","label":"GrindBot 助手"}]},
+    "footer": {"line1":"GrindBuddy — 非洲建设者的 AI 执行平台","copyright":"© 2026 GrindBuddy. 版权所有。","tagline":"以非洲为先 | 远程优先"},
+    "pricing": {
+      "title": "简单定价",
+      "subtitle": "选择适合你需求的方案",
+      "free": {"name":"免费","subtitle":"立即开始","items":["3 个项目","基础匹配","社区访问"],"button":"开始"},
+      "pro": {"tag":"热门","name":"19€","subtitle":"每月","items":["无限项目","优先匹配","完整 AI","20 个集成"],"button":"立即试用"},
+      "team": {"name":"团队","subtitle":"每席位每月 39€ 起","items":["包含 Pro 的全部功能","团队分析","共享工作区","专属支持"],"button":"联系我们"}
+    },
+    "cta": {
+      "title": "准备好把你的想法变成现实了吗？",
+      "sub": "加入 GrindBuddy，获得一个完整平台，借助 AI、正确的工具和合适的人来执行项目。",
+      "button": "访问产品",
+      "contact": "联系我们",
+      "stats": [
+        {"value":"免费","label":"即可开始"},
+        {"value":"50+ 工具","label":"已集成"},
+        {"value":"包含 AI","label":"GrindBot 助手"}
+      ]
+    },
+    "about": {
+      "title": "关于 GrindBuddy",
+      "p1": "GrindBuddy 的诞生源于一个简单的挫折：每年，数百万创业者、学生创始人和独立开发者会放弃有前景的项目——不是因为想法没有价值，而是因为他们缺乏结构、合适的共建者，以及在正确时机获得正确工具的机会。",
+      "p2": "我们决定通过打造一个统一平台来消除这些障碍，把智能协作、人工智能和集成工具生态结合在一起——全部为了执行而设计。",
+      "missionTitle": "我们的使命",
+      "missionText": "让每一位数字构建者都能公平地获得工具、指导和协作机会。",
+      "visionTitle": "我们的愿景",
+      "visionText": "让执行成为默认结果，而不是例外。",
+      "impactTitle": "持久影响",
+      "impactText": "直接支持 3 项联合国可持续发展目标（SDG 8、9、13）。",
+      "statsTitle": "关键数据",
+      "stats": [
+        {"label":"全球市场","value":"570 亿美元","detail":"2030 年的协作市场"},
+        {"label":"法国自由职业者","value":"120 万+","detail":"自 2009 年以来增长 92%"},
+        {"label":"完成率","value":"<20%","detail":"当前已完成项目"}
+      ]
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "关于 GrindBuddy，你需要知道的一切",
+      "items": [
+        {"q":"AI 匹配如何工作？","a":"我们的系统使用机器学习来分析每位构建者的技能、工作风格、可用时间和目标，然后基于真正的契合度而不是仅仅基于人脉来推荐最合适的共建者。"},
+        {"q":"市场中包含哪些工具？","a":"我们的市场包含 50+ 经过验证的开发、设计、营销和分析工具。我们会持续添加更多内容，并引入专门的 AI 代理。"},
+        {"q":"GrindBuddy 多少钱？","a":"GrindBuddy 可免费开始（3 个项目、基础匹配）。每月 19 欧元的 Pro 计划可解锁无限项目、完整 AI 和 20 个集成。团队每席位每月 39 欧元，含高级分析。"},
+        {"q":"我的数据安全吗？","a":"是的。我们使用行业标准（OAuth 2.0、JWT、SSL/TLS 加密）。对于企业客户，我们提供 SSO、正常运行 SLA 和完整 GDPR 合规。"},
+        {"q":"我可以给现有团队使用吗？","a":"当然可以。我们的团队版和企业版专为小团队（3-10 人）和更大的组织设计。你会获得团队分析、共享工作区和专属支持。"},
+        {"q":"我可以导出我的数据吗？","a":"可以。GrindBuddy 支持完整导出你的项目、团队和活动历史。你对数据拥有 100% 所有权。"},
+        {"q":"移动应用什么时候上线？","a":"iOS 和 Android 移动应用计划于 2026 年第四季度推出。目前网页版已经完全针对移动设备进行了优化。"},
+        {"q":"你们提供免费试用吗？","a":"是的！免费计划可无限访问所有核心功能。开始使用无需信用卡。"}
+      ]
+    },
+    "roadmap":[{"phase":"Q2 2026","title":"非洲优先上线","text":"发布 onboarding、匹配与首批 GrindBot 工作流。"},{"phase":"Q3 2026","title":"钱包 + 市场","text":"让 GrindBuddy Wallet 可见、可用，并成为执行核心。"},{"phase":"Q4 2026","title":"团队工作区","text":"上线更深度的协作、分析与移动端流程。"},{"phase":"2027","title":"跨境扩张","text":"通过合作生态与 AI agents 扩展到更多非洲枢纽。"}],
+    "footer":{"line1":"GrindBuddy — 非洲建设者的 AI 执行平台","copyright":"© 2026 GrindBuddy。 版权所有。","remote":"远程优先","hq":"总部：法国","links":{"team":"团队","roadmap":"路线图","wallet":"钱包"}}
+  },
+  "auth": {
+    "login": {
+      "title": "登录",
+      "subtitle": "访问您的 GrindBuddy 帐户",
+      "emailLabel": "邮箱",
+      "passwordLabel": "密码",
+      "emailPlaceholder": "you@example.com",
+      "passwordPlaceholder": "••••••••",
+      "loginBtn": "登录",
+      "loading": "登录中...",
+      "or": "或",
+      "continueWithGoogle": "使用 Google 继续",
+      "continueWithGithub": "使用 GitHub 继续",
+      "missingFields": "请填写所有字段",
+      "error": "登录出错。请重试。",
+      "demoNotice": "演示模式：使用任意邮箱/密码进行测试"
+    },
+    "signup": {
+      "title": "创建帐户",
+      "subtitle": "加入 GrindBuddy 并开始构建",
+      "emailLabel": "邮箱",
+      "passwordLabel": "密码",
+      "confirmPasswordLabel": "确认密码",
+      "namePlaceholder": "姓名",
+      "emailPlaceholder": "you@example.com",
+      "passwordPlaceholder": "••••••••",
+      "confirmPasswordPlaceholder": "••••••••",
+      "createBtn": "创建账户",
+      "loading": "创建中...",
+      "missingFields": "请填写所有必填项",
+      "passwordShort": "密码长度至少为6个字符",
+      "passwordMismatch": "密码不匹配",
+      "error": "注册出错。请重试。",
+      "roleLabel": "我是",
+      "roleFounder": "创始人 / 开发者",
+      "roleIncubator": "孵化器",
+      "roleInvestor": "投资人 / 导师",
+      "termsPrefix": "我同意",
+      "termsAnd": "以及",
+      "terms": "使用条款",
+      "privacy": "隐私政策",
+      "alreadyAccount": "已经有账户？",
+      "loginLink": "登录",
+      "googleBtn": "使用 Google 注册",
+      "githubBtn": "使用 GitHub 注册",
+      "demoNotice": "演示模式：使用任意数据测试平台"
+    }
+  },
+  "team":{"heading":"认识 GrindBuddy 背后的团队","sub":"一支泛非团队，正在交付执行工具、AI 协作与钱包基础设施。","members":[{"name":"Amina Diallo","role":"Product Lead","city":"Dakar, Senegal","bio":"设计适合现实约束下创始人的执行流程。"},{"name":"Kwame Mensah","role":"AI Systems Engineer","city":"Accra, Ghana","bio":"构建 GrindBot、匹配逻辑与 AI 代币钱包通道。"},{"name":"Nadia El Amrani","role":"Growth & Partnerships","city":"Casablanca, Morocco","bio":"负责非洲建设者社区与各枢纽的合作。"},{"name":"Moses Okoro","role":"Community Ops","city":"Monrovia, Liberia","bio":"负责 onboarding、支持与推动团队前进的项目。"}],"backToHome":"返回首页","join":"加入 GrindBuddy"}
+,
+  "dashboard": {
+    "title": "进度面板",
+    "overallProgress": "总体进度",
+    "projectCompletion": "项目完成率",
+    "teamActivity": "团队活动",
+    "nextMilestones": "下一个里程碑",
+    "target": "目标"
+  },
+  "matching": {
+    "title": "构建你的团队",
+    "subtitle": "找到与您的项目和目标高度匹配的合作者。",
+    "explore": "探索个人资料",
+    "suggestions": "建议",
+    "compatibility": "匹配度",
+    "skills": "技能",
+    "goal": "目标",
+    "added": "{name} 已被添加到您的团队！",
+    "removed": "{name} 已从您的团队移除。",
+    "continue": "前往工作区",
+    "addedLabel": "已添加",
+    "addButton": "添加"
+  }
+  ,
+  "marketplace": {
+    "title": "市场",
+    "addButton": "添加到项目",
+    "added": "{name} 已添加到你的项目！"
+  },
+  "workspace": {
+    "title": "项目工作区",
+    "toDo": "待办",
+    "inProgress": "进行中",
+    "done": "已完成",
+    "grindBot": "GrindBot",
+    "aiAssistant": "AI 助手",
+    "askPlaceholder": "向 GrindBot 提问...",
+    "send": "发送"
+  },
+  "demo": {
+    "loading": "正在加载演示...",
+    "subtitle": "观看 GrindBuddy 实际演示"
+  },
+  "onboarding": {
+    "title": "你正在构建什么？",
+    "subtitle": "告诉我们有关你的项目和技能",
+    "projectPlaceholder": "我想构建...",
+    "skillsLabel": "你的技能",
+    "availability": "可用性",
+    "availabilityLow": "低",
+    "availabilityMedium": "中",
+    "availabilityHigh": "高",
+    "goalLabel": "目标",
+    "findBuddies": "查找我的 GrindBuddies →",
+    "selectSkillError": "请描述你的项目并选择至少一项技能"
+  },
+  "buddyChoice": {
+    "welcome":"欢迎, {name}！",
+    "subtitle":"你想如何一起开展项目？",
+    "findBuddiesTitle":"寻找伙伴",
+    "findBuddiesDesc":"与志同道合的人组队共同构建。寻找开发者、设计师和其他专家。",
+    "aiBuddyTitle":"与 AI 一起工作",
+    "aiBuddyDesc":"GrindBot 是你的 AI 助手 — 帮助分解项目、生成任务并让你保持进度。",
+    "bothTitle":"两者结合",
+    "bothDesc":"获取全部功能：与人类和 AI 一起工作以实现最大效率。",
+    "start":"开始"
+  }
+}
