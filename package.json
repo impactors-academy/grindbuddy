@@ -2,7 +2,7 @@
   "name": "grindbuddy",
   "private": true,
   "version": "0.0.1",
-  "homepage": "https://menddevs.github.io/grindbuddy",
+  "homepage": "https://impactors-academy.github.io/grindbuddy",
   "type": "module",
   "scripts": {
     "dev": "vite",
