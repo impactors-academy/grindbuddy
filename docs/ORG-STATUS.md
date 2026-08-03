@@ -15,7 +15,7 @@ Org-level source of truth. Synced into each project as `docs/ORG-STATUS.md` via
 | Project | Status | Priority | Blocker / Next action |
 |---|---|---|---|
 | impactors-academy | LAUNCHED · Phase 9 | High | Real-device 3D perf check; changelog process |
-| ia-pro | ~10% · Phase 1-4 | High | Services copy → token drift fix → hero video → Cal.com |
+| ia-pro | ~70% · Phase 7 live | High | Postgres for blog/projects → hero video → Cal.com |
 | loc | ~85% · R4 active | High | Hero search bar (DISC-1) → country filters → deploy verify |
 | prospectbuddy | Built · not deployed | Medium | Deploy to Coolify → CSRF fix → backup script → team seed |
 | grindbuddy | Frontend done · PAUSED | Low | Resume only after backend stack decision |
