@@ -57,13 +57,16 @@ Safe frontend work: i18n (FR/Chinese completion), design tokens, accessibility p
 |---|---|
 | Backend stack decision | read `[workspace]/docs/PLATFORM-STANDARDS.md` → Web App/SaaS section first |
 | Supabase self-hosted setup | `/senior-devops` · `/senior-architect` |
-| Auth (Supabase Auth — replace localStorage) | `/senior-fullstack` |
-| DB schema design | `/database-schema-designer` |
+| Auth (Supabase Auth — replace localStorage) | `/nextauth-setup` (if Next.js) or Supabase Auth |
+| DB schema design | `/database-schema-designer` · `/drizzle-orm` |
 | Stripe integration | `/stripe-integration-expert` |
 | API routes, business logic | `/senior-backend` · `/senior-fullstack` |
 | Test suite | `/tdd-guide` · `/api-test-suite-builder` |
-| Coolify deployment | `/senior-devops` · `/ci-cd-pipeline-builder` |
-| Security hardening | `/senior-secops` |
+| Coolify deployment, staging + prod | `/coolify-deployment` · `/ci-cd-pipeline-builder` |
+| Admin route protection | `/cloudflare-access` |
+| File storage (avatars, uploads) | `/cloudflare-r2` |
+| Transactional email | `/resend-email` |
+| Security hardening | `/senior-secops` · `/authentik-sso` (for team access) |
 
 ### Cross-cutting (any phase)
 | Task | Skill |
