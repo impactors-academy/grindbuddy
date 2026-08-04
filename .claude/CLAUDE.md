@@ -1,26 +1,65 @@
-## Session start/end protocol — BUILD-CHECKLIST.md
+# grindbuddy — Session Protocol
 
-**At the start of every session in this repo**, before doing anything else:
-1. Read docs/BUILD-CHECKLIST.md in full.
-2. Audit the current repo state against every unchecked item — check actual code,
-   not just filenames or intentions. Update checkboxes to match reality.
-3. If any item's state is ambiguous or requires a judgment call (not just a
-   factual check), list it under an "Open Flags" section rather than guessing,
-   and ask before proceeding on that specific item.
-4. Report the 1-3 next items you'd tackle, in priority order, with a one-line
-   reason each, before starting any implementation work.
+Platform type: **Web App / SaaS** (frontend done, backend PAUSED)
+Stack: Next.js · Tailwind (frontend complete) · Backend TBD
+Status: Frontend done · Backend PAUSED — do not start without explicit instruction
 
-**At the end of every session** (when the person indicates they're wrapping up,
-or after a meaningful chunk of work has landed):
-1. Update docs/BUILD-CHECKLIST.md to reflect everything completed, with a
-   one-line note per item on what was actually built.
-2. Commit the checklist update alongside the code, in the same commit as the
-   work it describes — not as a separate cleanup commit later.
-3. Do not mark an item complete unless you've verified it in the actual code —
-   no marking something done based on intent or a partial implementation.
+---
 
-Also read `docs/ORG-STATUS.md` if it exists — if it appears stale vs. what you know
-about the org's current state, note it in the session-end summary and flag it.
+## ⚠️ PAUSED — READ BEFORE DOING ANYTHING
 
-This protocol runs automatically every session in this repo — don't wait to be
-asked to check the list.
+GrindBuddy backend work is explicitly paused. Do NOT:
+- Start backend implementation
+- Choose a backend stack
+- Write any server-side code
+- Set up a database
+
+Resume only when Emmanuel explicitly says to unpause. When resumed, read:
+- `[workspace]/docs/PLATFORM-STANDARDS.md` → Web App / SaaS section
+- `docs/BUILD-CHECKLIST.md` → open items for backend decisions
+
+---
+
+## Reference docs — read when triggered
+
+| Doc | Read when |
+|---|---|
+| `docs/BUILD-CHECKLIST.md` | **Every session start** — even while paused, audit frontend open items |
+| `docs/ORG-STATUS.md` | Checking org-wide status · when considering resuming |
+| `[workspace]/docs/PLATFORM-STANDARDS.md` | **When unpaused** — Web App/SaaS section for full stack decision |
+| `[workspace]/docs/DEVOPS-GUIDE.md` | **When unpaused** — branch setup, CI, staging |
+| `[workspace]/MASTER-CHECKLIST.md` | Security (Phase 0C) · scaling (Phase 7) · when grindbuddy is unpaused |
+
+---
+
+## On every session start
+
+1. Read `docs/BUILD-CHECKLIST.md` in full.
+2. If work is requested on paused backend items — stop and confirm with Emmanuel first.
+3. Frontend work is allowed — i18n (FR/Chinese), design tokens, accessibility.
+4. Report only frontend-safe next items unless backend is explicitly unpaused.
+
+## On every session end
+
+1. Update `docs/BUILD-CHECKLIST.md` for anything completed.
+2. Commit in the same commit as the code it describes.
+3. Push to `origin` (github.com/impactors-academy/grindbuddy) from this directory.
+
+---
+
+## DevOps rules (see `[workspace]/docs/DEVOPS-GUIDE.md` — apply when unpaused)
+
+```
+Branches:   feature/* → develop → main
+CI:         GitHub Actions — tsc + lint + test + build (Phase 0B item)
+Staging:    develop → Coolify staging (when unpaused)
+Production: main → Coolify production (when unpaused)
+```
+
+## Platform-specific rules (frontend, safe to action now)
+
+- i18n: FR and Chinese translations incomplete — safe to finish
+- Design tokens: must match org canonical values from MASTER-CHECKLIST.md
+- Accessibility: WCAG 2.1 AA — safe to action
+- Auth: localStorage auth is a placeholder — do not ship to users until replaced
+- Backend decision: Supabase self-hosted is the current leaning — confirm before starting
