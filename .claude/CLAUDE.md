@@ -48,6 +48,7 @@ Safe frontend work: i18n (FR/Chinese completion), design tokens, accessibility p
 | i18n: FR/Chinese translations | `/senior-frontend` |
 | Design token alignment (must match MASTER-CHECKLIST canonical values) | `/design-system` |
 | Accessibility pass (WCAG 2.1 AA) | `/a11y-audit` |
+| **Any color decision** — brand, accent, CTA, states, chart/category colors | `/color-combinations` |
 | UI polish, component refinement | `/ui-ux-pro-max` · `/senior-frontend` |
 | Animation, motion refinement | `/motion-framer` · `/gsap-scrolltrigger` |
 | Component sourcing | `/21st-dev` |
